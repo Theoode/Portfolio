@@ -1,9 +1,26 @@
-<?php include "header.php";
-print('<link rel="stylesheet" href="../CSS/style.css" type="text/css">');
-?>
-<main>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
 
-    <div id="container_info">
+<header>
+    <h1>Portfolio</h1>
+    <hr style="width: 450px; height: 0.070em;">
+    <nav class="navbar">
+        <a href="#container_photo"><h3>A propos</h3></a>
+        <a href="#projet"><h3>Mes projets</h3></a>
+        <a href="mailto:theoquennehenpro@gmail.com"><h3>Contact</h3></a>
+    </nav>
+    <nav id="logo">
+        <img src="../medias/github.png" height="25px" width="25px">
+        <img src="../medias/linkedin.png" height="25px" width="25px">
+    </nav>
+</header>
+
+
+<div id="container_info">
         <div id="container_photo">
             <img src="../medias/photo.JPG" height="200px" width="200px" style="border-radius: 150px">
         </div>
@@ -49,4 +66,32 @@ print('<link rel="stylesheet" href="../CSS/style.css" type="text/css">');
 
 </main>
 
-<?php include "footer.php"; ?>
+<div id="footer">
+
+    <div id="container_principal"><!--LE grand rectangle principal-->
+
+        <h2 style="padding-top: 15px"> Mon Portfolio</h2>
+        <p class="paragraphe paragraphe-footer">Merci d'avoir consacré du temps à lire mon site, il sera mis à jour régulièrement pour ajouter
+            mes futurs projets.</br> Si vous avez des questions n'hésitez pas à me contacter.</p>
+
+        <nav style="margin-top: 15px">
+            <img src="../medias/github.png" height="25px" width="25px">
+            <img src="../medias/linkedin.png" height="25px" width="25px">
+        </nav>
+
+    </div>
+
+
+    <div id="container_secondaire"><!--LE rectangle secondaire-->
+        <h4 style="margin-left: 15px">Copyright ©2023 Quennehen Théo</h4>
+        <img src="../medias/creative.png">
+        <nav>
+            <ul>
+                <a class="liens" href="#container_photo"><h4>A propos</h4></a>
+                <a class="liens" href="#projet"><h4>Mes projets</h4></a>
+                <a class="liens" href="mailto:theoquennehenpro@gmail.com"><h4>Contact</h4></a>
+            </ul>
+        </nav>
+
+    </div>
+</div>

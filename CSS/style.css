@@ -43,11 +43,6 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 
-h3{
-    font-size: xx-large;
-    font-family: 'Quicksand', sans-serif;
-}
-
 .navbar{
     display: flex;
     flex-direction: row;
@@ -75,7 +70,6 @@ h3{
     flex-wrap: wrap;
     width: 80%;
     max-width: 1500px;
-    background: crimson;
     margin: 30px auto 0;
 }
 
@@ -101,3 +95,35 @@ h3{
     height: 20%;
 }
 
+/*--------FOOTER----------*/
+
+footer{
+
+    align-items: center;
+    margin-top: 200px;
+    background-color: #3E3E3E;
+    height: 200px;
+    width: 100%;
+}
+
+footer div{
+    position: relative;
+    top: 15px;
+    margin: 0px 150px 15px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+footer h3{
+    color: white;
+}
+footer img{
+    height: 30px;
+    width: 80px;
+}

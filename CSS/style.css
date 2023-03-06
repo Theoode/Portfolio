@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
 /*-----------général---------------*/
+
 body{
     margin: 0;
     padding: 0;
@@ -8,27 +10,12 @@ body{
     height: 100%;
 }
 
-.hr{
-    margin-top: 25px;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    opacity: 0.45;
-}
-
-.hr::before, .hr::after {
-    background: currentColor;
-    content: "";
-    flex: 1;
-    height: 0.070em;
-    margin: 75px;
-    opacity: 0.45;
-}
-
 h1{
     font-family: 'Tilt Warp', cursive;
 }
-
+h2,h4{
+    font-family: 'Tajawal', sans-serif;
+}
 
 /*-----HEADER-----*/
 .container{
@@ -39,8 +26,17 @@ h1{
     color: white;
 }
 
+.container h4{
+    font-size: x-large;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: blue;
+    border-radius: 50px;
+}
+
 .titre{
     font-size: 120px;
+    text-shadow: -4px 1px 0px rgba(118,0,255,0.69);
 }
 
 header{
@@ -54,15 +50,13 @@ header{
 header a{
     color: white;
 }
-header h3{
-    font-family: 'Tajawal', sans-serif;
 
+header h1{
+    font-size: x-large;
 }
 
-header h3:hover{
-    background-color: white;
-    color: #3E3E3E;
-    border-radius: 150px;
+header h3{
+    font-family: 'Tajawal', sans-serif;
 }
 
 header nav{

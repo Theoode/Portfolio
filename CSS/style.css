@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 /*-----------VARIABLES---------------*/
 
 body{
@@ -19,6 +19,10 @@ h1{
 }
 h2,h3,h4{
     font-family: 'Tajawal', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*-----HAUT DE PAGE-----*/
@@ -90,8 +94,44 @@ h2,h3,h4{
     height: 35px;
     width: 35px;
 }
+/*--------INFO PERSO----------*/
+
+.info_perso{
+    margin: 80px 30px 30px 30px;
+}
+
+.info_perso h2{
+    font-size: xxx-large;
+}
+
+hr{
+    opacity: 0.1;
+}
+
+.texte{
+    display: flex;
+    gap: 30px;
+}
+
+
+
 
 /*--------GALERIE----------*/
+
+.titre_galerie{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.titre_galerie h2{
+    font-size: xxx-large;
+}
+
+.titre_galerie h3{
+    font-size: x-large;
+    opacity: 0.40;
+}
+
 
 
 .galerie{
@@ -125,35 +165,3 @@ h2,h3,h4{
     height: 20%;
 }
 
-/*--------FOOTER----------*/
-
-footer{
-    color: white;
-    align-items: center;
-    margin-top: 200px;
-    background-color: #3E3E3E;
-    height: 200px;
-    width: 100%;
-}
-
-footer div{
-    position: relative;
-    top: 15px;
-    margin: 0px 150px 15px 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer ul{
-    margin: 0;
-    padding: 0;
-}
-
-footer h3{
-    color: white;
-}
-footer img{
-    height: 30px;
-    width: 80px;
-}

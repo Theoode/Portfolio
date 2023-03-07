@@ -74,16 +74,22 @@ h2,h3,h4{
 }
 
 .container_text h4{
-    text-align: center;
+    color: black;
     font-size: large;
-    background-color: blue;
-    border-radius: 25px;
-    width: 30vh;
-    height: 5vh;
-    margin-top: 100px;
-
+    background-color: #17ff7e;
+    border-radius: 35px;
+    margin-top: 80px;
+    padding: 10px;
 }
 
+.logo{
+ margin-top: 25px;
+}
+
+.logo img{
+    height: 35px;
+    width: 35px;
+}
 
 /*--------GALERIE----------*/
 

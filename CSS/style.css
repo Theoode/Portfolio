@@ -1,77 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
 
-/*-----------général---------------*/
+/*-----------VARIABLES---------------*/
 
 body{
     margin: 0;
     padding: 0;
     z-index: 0;
-    height: 100%;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
 }
 
 h1{
     font-family: 'Tilt Warp', cursive;
 }
-h2,h4{
+h2,h3,h4{
     font-family: 'Tajawal', sans-serif;
 }
 
-/*-----HEADER-----*/
+/*-----HAUT DE PAGE-----*/
+
+/*-----CONTAINER-----*/
 .container{
-    width: 100%;
-    height: 739px;
     background-color: #3E3E3E;
-    text-align: center;
-    color: white;
+    height: 739px;
 }
 
-.container h4{
-    font-size: x-large;
-    margin-left: 40%;
-    margin-right: 40%;
-    background-color: blue;
-    border-radius: 50px;
-}
 
-.titre{
-    font-size: 120px;
-    text-shadow: -4px 1px 0px rgba(118,0,255,0.69);
-}
-
-header{
+/*-----HEADER-----*/
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px;
+    margin: 0px 50px;
     color: white;
+    padding-top: 15px;
 
 }
-header a{
+.header a{
     color: white;
 }
 
-header h1{
+.header h1{
     font-size: x-large;
 }
 
-header h3{
+.header h3{
     font-family: 'Tajawal', sans-serif;
 }
 
-header nav{
+.header nav{
     display: flex;
     gap: 15px;
 }
 
-#logo{
+/*-----CONTAINER TEXT-----*/
+.container_text{
+    text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    height: 94%;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    color: white;
 }
 
+.container_text h1{
+    font-size: 120px;
+    text-shadow: -4px 1px 0px rgba(118,0,255,0.69);
+}
 
+.container_text h4{
+    text-align: center;
+    font-size: large;
+    background-color: blue;
+    border-radius: 25px;
+    width: 30vh;
+    height: 5vh;
+    margin-top: 100px;
+
+}
 
 
 /*--------GALERIE----------*/

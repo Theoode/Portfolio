@@ -25,6 +25,12 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
+}
+
 /*-----HAUT DE PAGE-----*/
 
 /*-----CONTAINER-----*/
@@ -97,11 +103,17 @@ p{
 /*--------INFO PERSO----------*/
 
 .info_perso{
+    display: flex;
+    flex-direction: column;
     margin: 80px 30px 30px 30px;
 }
 
 .info_perso h2{
     font-size: xxx-large;
+}
+
+.info_perso h4{
+    text-align: center;
 }
 
 hr{
@@ -158,6 +170,7 @@ hr{
 }
 
 .container_info{
+    display: flex;
     position: relative;
     bottom: 4px;
     background: #3E3E3E;
@@ -165,3 +178,10 @@ hr{
     height: 20%;
 }
 
+.container_info img{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 25px;
+
+}

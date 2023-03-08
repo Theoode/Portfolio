@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-/*-----------VARIABLES---------------*/
+/*-----------MEDIA QUERIE---------------*/
 
+@media screen and (max-width: 900px){
+
+    .texte{
+        flex-direction: column;
+    }
+}
+
+
+/*-----------ANIMATION---------------*/
+
+/*-----------VARIABLES---------------*/
 body{
     margin: 0;
     padding: 0;
-    z-index: 0;
+    height: 100%;
 }
 
 h1,h2,h3,h4{
@@ -36,10 +47,43 @@ a{
 /*-----CONTAINER-----*/
 .container{
     background-color: #3E3E3E;
-    height: 739px;
+    min-height: 769px;
 }
 
+.container_fils{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
 
+.container_fils h1{
+    text-shadow: -4px 1px 0px rgba(118,0,255,0.69);
+    font-size: 8em;
+}
+
+.container_fils h4{
+    margin-top: 30px;
+    padding: 15px;
+    background-color: lightgreen;
+    color: #3E3E3E;
+    transition: transform 500ms;
+}
+
+.container_fils h4:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    margin-top: 25px;
+}
+
+.logo img{
+    height: 35px;
+    width: 35px;
+}
 /*-----HEADER-----*/
 .header{
     display: flex;
@@ -55,7 +99,7 @@ a{
 }
 
 .header h1{
-    font-size: x-large;
+    font-size: 1.5em;
 }
 
 .header h3{
@@ -65,41 +109,9 @@ a{
 .header nav{
     display: flex;
     gap: 15px;
+    font-size: 1em;
 }
 
-/*-----CONTAINER TEXT-----*/
-.container_text{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    height: 94%;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.container_text h1{
-    font-size: 120px;
-    text-shadow: -4px 1px 0px rgba(118,0,255,0.69);
-}
-
-.container_text h4{
-    color: black;
-    font-size: large;
-    background-color: #17ff7e;
-    border-radius: 35px;
-    margin-top: 80px;
-    padding: 10px;
-}
-
-.logo{
- margin-top: 25px;
-}
-
-.logo img{
-    height: 35px;
-    width: 35px;
-}
 /*--------INFO PERSO----------*/
 
 .info_perso{
@@ -178,10 +190,3 @@ hr{
     height: 20%;
 }
 
-.container_info img{
-    height: 30px;
-    width: 30px;
-    background-color: white;
-    border-radius: 25px;
-
-}

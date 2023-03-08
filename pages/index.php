@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="../CSS/main.css">
-</head>
+<?php include('header.php');?>
+    <link rel="stylesheet" href="../CSS/style.css">
 
 
 <div class="info_perso">
@@ -14,7 +10,7 @@
             Je m'appelle Théo, j'ai 20 ans, je suis en formation de BUT informatique à l'IUT d'Amiens dans le but de devenir développeur web.</br>
         </p>
     </div>
-    <a href="medias/cv.pdf" download="Mon CV"><h4>Télécharger mon CV</h4></a>
+    <a href="../medias/cv.pdf" download="Mon CV"><h4>Télécharger mon CV</h4></a>
 </div>
 
 
@@ -27,31 +23,32 @@
 
 <div class="galerie">
     <div class="projet">
-        <img src="medias/projet1.jpg">
+        <img src="../medias/projet1.jpg">
         <div class="container_info">
 
         </div>
     </div>
 
     <div class="projet">
-        <img src="medias/projet2.jpg">
+        <img src="../medias/projet2.jpg">
         <div class="container_info">
 
         </div>
     </div>
 
     <div class="projet">
-        <img src="medias/projet3.jpg">
+        <img src="../medias/projet3.jpg">
         <div class="container_info">
 
         </div>
     </div>
 
     <div class="projet">
-        <img src="medias/projet3.jpg">
+        <img src="../medias/projet3.jpg">
         <div class="container_info">
 
         </div>
     </div>
 </div>
 
+<?php include 'footer.php';?>

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../CSS/header.css">
+
 
 <div class="container">
 
@@ -17,8 +17,8 @@
         <a href="#projet"><h4>Découvrir mes projets </h4></a>
 
         <nav class="logo">
-            <a href="https://github.com/Theoode"><img src="medias/github.png" ></a>
-            <a href="https://www.linkedin.com/in/th%C3%A9o-quennehen-41939423a/"><img src="medias/linkedin.png" ></a>
+            <a href="https://github.com/Theoode"><img src="../medias/github.png" ></a>
+            <a href="https://www.linkedin.com/in/th%C3%A9o-quennehen-41939423a/"><img src="../medias/linkedin.png" ></a>
         </nav>
     </div>
 

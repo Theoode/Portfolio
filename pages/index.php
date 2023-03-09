@@ -3,14 +3,33 @@
 
 
 <div class="info_perso">
+    <div>
     <h2> Qui suis-je ?</h2>
     <hr>
-    <div class="texte">
-        <p>
-            Je m'appelle Théo, j'ai 20 ans, je suis en formation de BUT informatique à l'IUT d'Amiens dans le but de devenir développeur web.</br>
-        </p>
     </div>
-    <a href="../medias/cv.pdf" download="Mon CV"><h4>Télécharger mon CV</h4></a>
+    <div class="presentation">
+        <p>
+            Je m'appelle Théo et j'ai actuellement 20 ans. Je suis étudiant en BUT Informatique à Amiens et
+            je suis passionné par le développement web. Mon objectif professionnel est de devenir développeur
+            web, un métier qui me permettra de mettre en pratique mes connaissances et mes compétences dans
+            la création de sites internet.</br></br>
+
+            C'est pourquoi j'ai choisi de suivre des études en informatique pour approfondir mes connaissances
+            et me spécialiser dans le développement web. J'ai appris à maîtriser plusieurs langages d'intégration
+            et de programmation tels que HTML, CSS, JavaScript ou encore PHP</br></br>
+
+            Si vous êtes à la recherche d'un développeur web passionné et motivé, n'hésitez pas à me contacter
+            pour en savoir plus sur mes compétences et mes réalisations.</br></br>
+
+            Merci de votre visite et à bientôt !
+        </p>
+
+            <div class="container_avatar">
+            <img src="../medias/profil.JPG">
+            </div>
+
+    </div>
+
 </div>
 
 

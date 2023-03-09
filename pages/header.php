@@ -7,7 +7,7 @@
         <nav>
             <a><h3>A propos</h3></a>
             <a><h3>Mes projets</h3></a>
-            <a href="mailto:theoquennehenpro@gmail.com"><h3>Contact</h3></a>
+            <a href="mailto:theoquennehenpro@gmail.com" target="_blank"><h3>Contact</h3></a>
         </nav>
     </div>
 
@@ -17,8 +17,8 @@
         <a href="#projet"><h4>Découvrir mes projets </h4></a>
 
         <nav class="logo">
-            <a href="https://github.com/Theoode"><img src="../medias/github.png" ></a>
-            <a href="https://www.linkedin.com/in/th%C3%A9o-quennehen-41939423a/"><img src="../medias/linkedin.png" ></a>
+            <a href="https://github.com/Theoode" target="_blank"><img src="../medias/github.png" ></a>
+            <a href="https://www.linkedin.com/in/th%C3%A9o-quennehen-41939423a/" target="_blank"><img src="../medias/linkedin.png" ></a>
         </nav>
     </div>
 

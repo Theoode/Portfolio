@@ -10,8 +10,8 @@
                 <ul>
                     <li><a href="#">A propos</a></li>
                     <li><a href="#">Mes projets</a></li>
-                    <li><a href="#">Me contacter</a></li>
-                    <li><a href="#">IUT Amiens</a></li>
+                    <li><a href="mailto:theoquennehenpro@gmail.com">Me contacter</a></li>
+                    <li><a href="https://www.iut-amiens.fr/" target="_blank">IUT Amiens</a></li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -32,8 +32,8 @@
             <div class="footer-col">
                 <h4>Suivez-moi !</h4>
                 <div class="social-links">
-                    <a href="https://github.com/Theoode"><img src="../medias/github.png"></a>
-                    <a href="https://www.linkedin.com/in/th%C3%A9o-quennehen-41939423a/"> <img src="../medias/linkedin.png"></a>
+                    <a href="https://github.com/Theoode" target="_blank"><img src="../medias/github.png"></a>
+                    <a href="https://www.linkedin.com/in/th%C3%A9o-quennehen-41939423a/" target="_blank"> <img src="../medias/linkedin.png"></a>
                 </div>
             </div>
         </div>

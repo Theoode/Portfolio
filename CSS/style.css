@@ -13,12 +13,14 @@
     .texte{
         flex-direction: column;
     }
+
 }
 @media(max-width: 574px){
     .footer-col{
         width: 100%;
     }
 }
+
 
 
 /*-----------ANIMATION---------------*/
@@ -124,13 +126,21 @@ a{
 
 /*--------INFO PERSO----------*/
 
+hr{
+    width: 250px;
+    margin-left: 100px;
+}
+
+
 .info_perso{
     display: flex;
     flex-direction: column;
     margin: 80px 30px 30px 30px;
+    border-color: #3E3E3E;
 }
 
 .info_perso h2{
+    margin: 0 100px;
     font-size: xxx-large;
 }
 
@@ -138,13 +148,33 @@ a{
     text-align: center;
 }
 
-hr{
-    opacity: 0.1;
+
+.presentation{
+    display: flex;
+    flex-direction: row;
+    margin: 0 100px;
 }
 
-.texte{
-    display: flex;
-    gap: 50px;
+.container_avatar{
+    text-align: center;
+    height:270px;
+    width: 800px;
+    background-color: #3E3E3E;
+    border-radius: 15px;
+    min-width: 300px;
+    margin-left: 100px;
+
+}
+
+.container_avatar img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    bottom: 70px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
 }
 
 

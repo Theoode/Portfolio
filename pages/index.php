@@ -21,7 +21,7 @@
             Si vous êtes à la recherche d'un développeur web passionné et motivé, n'hésitez pas à me contacter
             pour en savoir plus sur mes compétences et mes réalisations.</br></br>
 
-            Merci de votre visite et à bientôt !
+            N'hésitez pas a regarder mes projets ci-dessous !
         </p>
 
             <div class="container_avatar">
@@ -44,6 +44,8 @@
     <div class="projet">
         <img src="../medias/projet1.jpg">
         <div class="container_info">
+            <h3>Réalisation d'un Portfolio en HTML/CSS</h3>
+            <img src="../medias/bas.png">
 
         </div>
     </div>
@@ -51,6 +53,8 @@
     <div class="projet">
         <img src="../medias/projet2.jpg">
         <div class="container_info">
+            <h3>Création de maquettes de sites web et Application</h3>
+            <img src="../medias/bas.png">
 
         </div>
     </div>
@@ -58,16 +62,25 @@
     <div class="projet">
         <img src="../medias/projet3.jpg">
         <div class="container_info">
+            <h3>Développement d'une API de gestion d'EDT en Php</h3>
+            <img src="../medias/bas.png">
 
         </div>
     </div>
 
     <div class="projet">
-        <img src="../medias/projet3.jpg">
+        <img src="../medias/projet4.jpg">
         <div class="container_info">
+            <h3>Réalisation site e-commerce avec PHP et Javascript</h3>
+            <img src="../medias/bas.png">
 
         </div>
     </div>
 </div>
+
+
+
+
+
 
 <?php include 'footer.php';?>

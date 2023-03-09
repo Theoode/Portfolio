@@ -32,8 +32,8 @@
             <div class="footer-col">
                 <h4>Suivez-moi !</h4>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Theoode"><img src="../medias/github.png"></a>
+                    <a href="https://www.linkedin.com/in/th%C3%A9o-quennehen-41939423a/"> <img src="../medias/linkedin.png"></a>
                 </div>
             </div>
         </div>

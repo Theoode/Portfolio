@@ -25,7 +25,13 @@
         </p>
 
             <div class="container_avatar">
-            <img src="../medias/profil.JPG">
+                <img src="../medias/profil.JPG">
+
+                <div class="skills">
+
+
+                    <a href="../medias/cv.pdf" download="Mon CV">Télécharger mon Cv</a>
+                </div>
             </div>
 
     </div>

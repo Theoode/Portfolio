@@ -155,6 +155,11 @@ hr{
 
 
 /*--------GALERIE----------*/
+.box{
+    height: 1000px;
+    width: 100%;
+    background: #f1f1f1;
+}
 
 .titre_galerie{
     text-align: center;
@@ -163,6 +168,7 @@ hr{
 
 .titre_galerie h2{
     font-size: xxx-large;
+
 }
 
 .titre_galerie h3{
@@ -170,59 +176,65 @@ hr{
     opacity: 0.40;
 }
 
-
-
 .galerie{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     width: 80%;
-    max-width: 1500px;
-    margin: 30px auto 0;
+    max-width: 1400px;
+    margin: 70px auto 0;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
-.projet{
+.galerie h2{
+    margin: 15px 0 0 5px;
+    color: white;
+}
+
+.card{
     width: 500px;
-    height: 400px;
     margin: 10px;
+    background-color:#3E3E3E ;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
     overflow: hidden;
     flex-shrink: 0;
 }
 
-.projet img{
-    width: 100%;
-    height: auto;
+.placeholder-img{
+    width: 500px;
+    height: 250px;
+    background-color: crimson;
 }
-
-.container_info{
-    display: flex;
+.placeholder-img img {
+    height: 100%;
+    width: 100%;
+}
+.expandMoreContent{
+    height: 20px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
     position: relative;
-    bottom: 4px;
-    background: #3E3E3E;
-    width: 100%;
-    height: 20%;
+}
+.expandMoreContent.expand-active{
+    height: auto;
+    transition: transform 500ms ease-in-out ;
     color: white;
-    align-items: center;
-}
-
-.container_info h3{
     margin-left: 15px;
-}
 
-.container_info img{
-    position: absolute;
-    height:40px;
-    width: 40px;
-    right: 15px;
-    top: 20px;
-    background-color: white;
+}
+.expandMoreHolder{
+    text-align: center;
+}
+.btn-expand-more{
     border-radius: 25px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: lightgreen;
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
 }
-
-
-
-
 
 
 
@@ -242,7 +254,6 @@ ul{
 .footer{
     background-color: #3E3E3E;
     padding: 70px 0;
-    margin-top: 150px;
 }
 .footer-col{
     width: 25%;

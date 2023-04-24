@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/particles.min.js"></script>
+    <script src="JS/ensavoirplus.js"></script>
 </head>
 <body>
 
@@ -21,8 +23,7 @@
     </div>
 </div>
 
-<!--La page principale-->
-
+<!--La présentation-->
 <div class="info_perso" id="pres">
     <div>
         <h2> Qui suis-je ?</h2>
@@ -58,48 +59,83 @@
     </div>
 
 </div>
+<!--La galerie-->
+<div class="box">
 <div class="titre_galerie">
     <h2 id="projet">Mes derniers projets</h2>
     <h3>De la maquette jusqu'au développement</h3>
 </div>
 
-
 <div class="galerie">
-    <div class="projet">
-        <img src="../medias/projet1.jpg">
-        <div class="container_info">
-            <h3>Réalisation d'un Portfolio en HTML/CSS</h3>
-            <img src="../medias/bas.png">
-
+    <div class="card">
+        <div class="placeholder-img">
+            <img src="medias/projet1.jpg">
+        </div>
+    <div class="info">
+        <h2>Réalisation d'un Portfolio HTML/CSS/JS</h2>
+    </div>
+    <div class="description">
+        <div class="expandMoreContent" id="showMoreContent1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur delectus deleniti deserunt, pariatur quasi quis tempore. Animi autem culpa cumque et eveniet exercitationem, expedita, fuga nesciunt nobis, quos veritatis voluptatem.</p>
+        </div>
+        <div class="expandMoreHolder">
+        <span expand-more data-hidetext="Montrer moins" data-showtext="En savoir plus..."
+              data-target="showMoreContent1" class="btn-expand-more">En savoir plus...</span>
         </div>
     </div>
-
-    <div class="projet">
-        <img src="../medias/projet2.jpg">
-        <div class="container_info">
-            <h3>Création de maquettes de sites web et affiches</h3>
-            <img src="../medias/bas.png">
-
+    </div>
+    <div class="card">
+        <div class="placeholder-img">
+            <img src="medias/projet2.jpg">
+        </div>
+        <div class="info">
+            <h2>Création de maquettes et d'affiches</h2>
+        </div>
+        <div class="description">
+            <div class="expandMoreContent" id="showMoreContent2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur delectus deleniti deserunt, pariatur quasi quis tempore. Animi autem culpa cumque et eveniet exercitationem, expedita, fuga nesciunt nobis, quos veritatis voluptatem.</p>
+            </div>
+            <div class="expandMoreHolder">
+        <span expand-more data-hidetext="Montrer moins" data-showtext="En savoir plus..."
+              data-target="showMoreContent2" class="btn-expand-more">En savoir plus...</span>
+            </div>
         </div>
     </div>
-
-    <div class="projet">
-        <img src="../medias/projet3.jpg">
-        <div class="container_info">
-            <h3>Développement d'une API de gestion de commande</h3>
-            <img src="../medias/bas.png">
-
+    <div class="card">
+        <div class="placeholder-img">
+            <img src="medias/projet3.jpg">
+        </div>
+        <div class="info">
+            <h2>Réalisation d'un site e-commerce</h2>
+        </div>
+        <div class="description">
+            <div class="expandMoreContent" id="showMoreContent3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur delectus deleniti deserunt, pariatur quasi quis tempore. Animi autem culpa cumque et eveniet exercitationem, expedita, fuga nesciunt nobis, quos veritatis voluptatem.</p>
+            </div>
+            <div class="expandMoreHolder">
+        <span expand-more data-hidetext="Montrer moins" data-showtext="En savoir plus..."
+              data-target="showMoreContent3" class="btn-expand-more">En savoir plus...</span>
+            </div>
         </div>
     </div>
-
-    <div class="projet">
-        <img src="../medias/projet4.jpg">
-        <div class="container_info">
-            <h3>Réalisation site e-commerce avec PHP et Javascript</h3>
-            <img src="../medias/bas.png">
-
+    <div class="card">
+        <div class="placeholder-img">
+            <img src="medias/projet4.jpg">
+        </div>
+        <div class="info">
+            <h2>API de gestion de commande client</h2>
+        </div>
+        <div class="description">
+            <div class="expandMoreContent" id="showMoreContent4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur delectus deleniti deserunt, pariatur quasi quis tempore. Animi autem culpa cumque et eveniet exercitationem, expedita, fuga nesciunt nobis, quos veritatis voluptatem.</p>
+            </div>
+            <div class="expandMoreHolder">
+        <span expand-more data-hidetext="Montrer moins" data-showtext="En savoir plus..."
+              data-target="showMoreContent4" class="btn-expand-more">En savoir plus...</span>
+            </div>
         </div>
     </div>
+</div>
 </div>
 
 <!--Le footer-->
@@ -201,7 +237,7 @@
                 },
                 "move": {
                     "enable": true,
-                    "speed": 6,
+                    "speed": 2,
                     "direction": "none",
                     "random": false,
                     "straight": false,

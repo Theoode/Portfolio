@@ -34,11 +34,11 @@ a{
 }
 
 /*-----CONTAINER-----*/
+
 #particles-js{
     background: #031321;
     margin: 0;
     z-index: -1;
-    height: 720px;
 }
 
 .container_fils{
@@ -81,82 +81,34 @@ a{
 
 
 /*--------INFO PERSO----------*/
-
-hr{
-    width: 250px;
-    margin-left: 100px;
-}
-
-
-.info_perso{
-    display: flex;
-    flex-direction: column;
-    margin: 80px 30px 30px 30px;
-    border-color: #3E3E3E;
-}
-
-.info_perso h2{
-    margin: 0 100px;
-    font-size: xxx-large;
-}
-
-.info_perso h4{
+.container_pres{
+    margin:50px auto 0;
     text-align: center;
-}
-
-
-.presentation{
-    display: flex;
-    flex-direction: row;
-    margin: 0 100px;
-}
-
-.container_avatar{
-    color: white;
-    height:270px;
-    width: 800px;
-    background-color: #3E3E3E;
-    border-radius: 15px;
-    min-width: 300px;
-    margin-left: 100px;
-}
-
-.container_avatar img{
-    position: relative;
-    left: 66px;
-    bottom: 80px;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    border-width: 10px;
+    width: 80%;
     border-style: solid;
-    border-color: white;
+    border-width: thin;
+    padding: 15px;
+    border-color: lightgreen;
+}
+.container_pres div{
+   margin-bottom: 25px;
+}
+.container_pres hr{
+    width: 170px;
 }
 
-.skills{
-    margin: auto;
+.container_pres a{
+    top: 25px;
     position: relative;
-    height: 60%;
-    width: 85%;
-    background: crimson;
-    bottom: 75px;
-}
-
-.skills a{
-    position: absolute;
-    bottom: 0;
-    left: 20%;
+    padding: 15px;
     background-color: lightgreen;
-    color: #3E3E3E;
-    padding: 10px;
-    border-radius: 20px;
 }
 
 
 
 /*--------GALERIE----------*/
 .box{
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     background: #f1f1f1;
 }
@@ -286,7 +238,6 @@ ul{
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color: #bbbbbb;
     display: block;
     transition: all 0.3s ease;
 }
@@ -314,15 +265,14 @@ ul{
         width: 50%;
         margin-bottom: 30px;
     }
-    .texte{
-        flex-direction: column;
-    }
-
 }
+
+
 @media(max-width: 574px){
     .footer-col{
         width: 100%;
     }
+
 }
 
 

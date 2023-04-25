@@ -102,13 +102,12 @@ a{
     position: relative;
     padding: 15px;
     background-color: lightgreen;
+    color: #031321;
 }
-
-
 
 /*--------GALERIE----------*/
 .box{
-    height: 1100px;
+    min-height: 1100px;
     width: 100%;
     background: #f1f1f1;
 }
@@ -193,8 +192,10 @@ a{
 /*--------FOOTER----------*/
 
 .container_footer{
+    position: relative;
     max-width: 1170px;
     margin:auto;
+    bottom: 0;
 }
 .row{
     display: flex;

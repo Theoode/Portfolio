@@ -133,7 +133,7 @@ a{
     min-height: 1100px;
     width: 100%;
     background: #f1f1f1;
-    margin-top: 150px;
+    margin-top: 150px;;
 }
 .description a{
     color: lightgreen;
@@ -157,13 +157,15 @@ a{
 
 .galerie{
     display: flex;
-    width: 80%;
+    flex-direction: column;
+    width: 70%;
     max-width: 1400px;
     margin: 70px auto 0;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: center;
     padding-bottom: 150px;
+    height: 1060px;
+    align-items: center;
 }
 
 
@@ -177,7 +179,6 @@ a{
     margin: 10px;
     background-color:#3E3E3E ;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
-    overflow: hidden;
     flex-shrink: 0;
 }
 

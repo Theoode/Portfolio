@@ -5,23 +5,20 @@
 
 
 /*-----------VARIABLES---------------*/
-
 body{
     margin: 0;
     padding: 0;
     height: 100%;
-}
-
-h1,h2,h3,h4{
-    margin: 0;
-    padding: 0;
+    width:100%;
 }
 
 h1{
     font-family: 'Tilt Warp', cursive;
+    margin: 0;
 }
 h2,h3,h4{
     font-family: 'Tajawal', sans-serif;
+    margin: 0;
 }
 
 p{
@@ -29,6 +26,7 @@ p{
 }
 
 a{
+    color: #031321;
     text-decoration: none;
     font-family: 'Tajawal', sans-serif;
 }
@@ -37,20 +35,36 @@ a{
 
 #particles-js{
     background: #031321;
+    color: white;
+    width: 100%;
+    height: 750px;
+    position: relative;
+
 }
-canvas{
-    height: 1800px;
+
+#particles-js div{
+    position: absolute;
+    width: 100%;
+    height: 55%;
+    background: crimson;
+    opacity: 80%;
+    text-align: center;
+}
+
+#particles-js h1{
+    text-shadow: -4px 1px 0px rgba(118,0,255,0.69);
+}
+
+#particles-js svg{
+    margin-top: 25px;
 }
 
 .container_fils{
-    top: 5%;
-    left: 17%;
-    right: 17%;
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    top: 25%;
+    bottom: 25%;
+    right: 25%;
+    left: 25%;
     color: white;
 }
 
@@ -83,7 +97,7 @@ canvas{
 
 /*--------INFO PERSO----------*/
 .container_pres{
-    margin:50px auto 0;
+    margin:90px auto 0;
     text-align: center;
     width: 80%;
     border-style: solid;
@@ -103,7 +117,6 @@ canvas{
     position: relative;
     padding: 15px;
     background-color: lightgreen;
-    color: #031321;
 }
 
 /*--------GALERIE----------*/
@@ -264,10 +277,13 @@ ul{
 
 /*-----------MEDIA QUERIE---------------*/
 
-@media(max-width: 767px){
+@media(max-width: 666px){
     .footer-col{
         width: 100%;
         margin-bottom: 30px;
+    }
+    #particles-js{
+        height: 700px;
     }
     
 }

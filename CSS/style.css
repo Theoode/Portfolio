@@ -37,8 +37,9 @@ a{
 
 #particles-js{
     background: #031321;
-    margin: 0;
-    z-index: -1;
+}
+canvas{
+    height: 1800px;
 }
 
 .container_fils{
@@ -110,11 +111,13 @@ a{
     min-height: 1100px;
     width: 100%;
     background: #f1f1f1;
+    margin-top: 150px;
 }
 
 .titre_galerie{
     text-align: center;
-    margin-top: 150px;
+    position: relative;
+    top: 20px;
 }
 
 .titre_galerie h2{
@@ -135,6 +138,7 @@ a{
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 150px;
 }
 
 
@@ -155,7 +159,6 @@ a{
 .placeholder-img{
     width: 500px;
     height: 250px;
-    background-color: crimson;
 }
 .placeholder-img img {
     height: 100%;
@@ -263,17 +266,14 @@ ul{
 
 @media(max-width: 767px){
     .footer-col{
-        width: 50%;
+        width: 100%;
         margin-bottom: 30px;
     }
+    
 }
-
-
 @media(max-width: 574px){
     .footer-col{
         width: 100%;
     }
 
 }
-
-

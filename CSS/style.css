@@ -18,6 +18,8 @@ h1{
     padding: 0;
 }
 h2,h3,h4,span{
+    padding: 0;
+    margin: 0;
     font-family: 'Tajawal', sans-serif;
 
 }
@@ -236,8 +238,8 @@ ul{
     padding: 70px 0;
 }
 .footer-col{
-    width: 25%;
-    padding: 0 15px;
+    width: 15%;
+    padding: 0 85px;
 }
 .footer-col h4{
     font-size: 18px;

@@ -17,7 +17,7 @@ h1{
     margin: 0;
     padding: 0;
 }
-h2,h3,h4{
+h2,h3,h4,span{
     font-family: 'Tajawal', sans-serif;
 
 }
@@ -133,6 +133,10 @@ a{
     background: #f1f1f1;
     margin-top: 150px;
 }
+.description a{
+    color: lightgreen;
+}
+
 
 .titre_galerie{
     text-align: center;
@@ -184,7 +188,7 @@ a{
     width: 100%;
 }
 .expandMoreContent{
-    height: 20px;
+    height: 18px;
     overflow: hidden;
     transition: height 0.5s ease-in-out;
     position: relative;
@@ -194,6 +198,7 @@ a{
     transition: transform 500ms ease-in-out ;
     color: white;
     margin-left: 15px;
+    padding: 15px;
 
 }
 .expandMoreHolder{

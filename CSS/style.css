@@ -283,13 +283,12 @@ ul{
     color: #ffffff;
 }
 
+/*---MEDIA QUERIES--->*/
+
 @media screen and (max-width: 800px) {
-    .container_pres p,h2{
+    .container_pres p{
         text-align: left;
         color: crimson;
-    }
-    .container_pres hr{
-        margin: 0;
     }
 
 }

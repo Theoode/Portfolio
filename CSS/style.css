@@ -133,12 +133,11 @@ a{
     min-height: 1100px;
     width: 100%;
     background: #f1f1f1;
-    margin-top: 150px;;
+    margin-top: 150px;
 }
 .description a{
     color: lightgreen;
 }
-
 
 .titre_galerie{
     text-align: center;
@@ -148,38 +147,15 @@ a{
 
 .titre_galerie h2{
     font-size: xxx-large;
-
 }
 
 .titre_galerie h3{
     font-size: x-large;
 }
 
-.galerie{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    max-width: 1400px;
-    margin: 70px auto 0;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding-bottom: 150px;
-    height: 1060px;
-    align-items: center;
-}
-
-
 .galerie h2{
     margin: 15px 0 0 5px;
     color: white;
-}
-
-.card{
-    width: 500px;
-    margin: 10px;
-    background-color:#3E3E3E ;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
-    flex-shrink: 0;
 }
 
 .placeholder-img{
@@ -189,6 +165,25 @@ a{
 .placeholder-img img {
     height: 100%;
     width: 100%;
+}
+
+.galerie{
+    display: flex;
+    width: 80%;
+    max-width: 1300px;
+    margin: 70px auto 0;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card{
+    width: 500px;
+    margin: 10px;
+    background-color:#3E3E3E ;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+    flex-shrink: 0;
 }
 .expandMoreContent{
     height: 18px;
@@ -207,6 +202,7 @@ a{
 .expandMoreHolder{
     text-align: center;
 }
+
 .btn-expand-more{
     border-radius: 25px;
     cursor: pointer;

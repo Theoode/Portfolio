@@ -282,3 +282,14 @@ ul{
     text-align: center;
     color: #ffffff;
 }
+
+@media screen and (max-width: 800px) {
+    .container_pres p,h2{
+        text-align: left;
+        color: crimson;
+    }
+    .container_pres hr{
+        margin: 0;
+    }
+
+}

@@ -287,15 +287,28 @@ ul{
 /*---MEDIA QUERIES--->*/
 
 @media screen and (max-width: 700px) {
-  h1{
+    #particles-js{
+       height: 668px;
+    }
+    h1{
       font-size: 5em;
-  }
+    }
+    h3{
+        font-size: 0.9em;
+    }
+    svg{
+        height: 50px;
+        width: 50px;
+    }
     p{
         text-align: left;
     }
 }
 
 @media screen and (max-width: 580px) {
+    h1{
+        font-size: 3em;
+    }
    .box h2{
        font-size: 2em;
    }
@@ -329,5 +342,6 @@ ul{
     .social-links{
         flex-direction: row;
     }
-
 }
+
+

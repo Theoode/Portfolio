@@ -287,7 +287,7 @@ ul{
 /*---MEDIA QUERIES--->*/
 @media screen and (min-width: 1920px) {
     #particles-js{
-        max-height: 1080px;
+        max-height: 1440px;
         height: 100%;
     }
 }

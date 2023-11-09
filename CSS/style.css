@@ -34,6 +34,19 @@ a{
     font-family: 'Tajawal', sans-serif;
 }
 
+.cache{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.visible {
+    opacity: 1 !important;
+    transform: translateX(20px) !important;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
 /*-----CONTAINER-----*/
 
 #particles-js{

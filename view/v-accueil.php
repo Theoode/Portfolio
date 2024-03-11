@@ -1,31 +1,5 @@
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8" >
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="shortcut icon" href="medias/icone.ico"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="JS/particles.min.js"></script>
-    <script src="JS/ensavoirplus.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="JS/scroll.js"></script>
-    <script src="JS/cache.js"></script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBSS5X9PTK"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-BBSS5X9PTK');
-    </script>
-
-</head>
+<?php require "includes/head.php" ?>
 <body>
-
-
 <div id="particles-js">
     <div>
         <div>
@@ -37,28 +11,16 @@
 </div>
 
 <!--La présentation-->
-
+<?php foreach ($pres as $presentation): ?>
 <div id="medecouvrir" class="container_pres ">
         <div>
-            <h2>A propos de moi</h2>
+            <h2><?= htmlspecialchars($presentation['titre']) ?></h2>
             <hr>
         </div>
-        <p>
-            Je m'appelle Théo et j'ai actuellement 21 ans. Je suis étudiant en BUT Informatique à Amiens et
-            je suis passionné par le développement web et le design. Mon objectif professionnel est de devenir développeur
-            web ou designer UX/UI, un métier qui me permettra de mettre en pratique mes connaissances et mes compétences dans
-            la création de sites internet et en création numérique.</br></br>
-
-            C'est pourquoi j'ai choisi de suivre des études en informatique pour approfondir mes connaissances
-            et me spécialiser dans le développement web.</br> J'ai appris à maîtriser plusieurs langages d'intégration
-            et de programmation telle que HTML, CSS, Javascript ou encore PHP mais je sais également créer des supports
-            graphiques esthétiques et complets comme des affiches ou des maquettes.</br></br>
-
-            Si vous êtes à la recherche d'un stagiaire passionné et motivé, n'hésitez pas à me contacter. Sinon pour en savoir plus
-            sur mes compétences et mes réalisations vous pouvez continuer à visiter le site.</br></br>
-        </p>
+        <p><?= htmlspecialchars($presentation['description']) ?></p>
         <a href="../medias/cv.pdf" download="Mon CV">Télécharger mon Cv</a>
 </div>
+<?php endforeach; ?>
 
 <!--La galerie-->
 <div class="box">
@@ -68,13 +30,12 @@
     <h3>De la maquette jusqu'au développement</h3>
 </div>
 
-<?php foreach ($projets as $projet): ?>
     <div class="galerie">
-
         <div class="card cache">
             <div class="placeholder-img">
                 <img src="../src/medias/projet1.jpg">
             </div>
+            <?php foreach ($projets as $projet): ?>
             <div class="info">
                 <h2> <?= htmlspecialchars($projet['titre']) ?></h2>
             </div>
@@ -82,6 +43,7 @@
                 <div class="expandMoreContent" id="showMoreContent1">
                     <p> <?= htmlspecialchars($projet['description']) ?></p>
                 </div>
+                <?php endforeach; ?>
                 <div class="expandMoreHolder">
                 <span expand-more data-hidetext="Montrer moins" data-showtext="En savoir plus..."
                       data-target="showMoreContent1" class="btn-expand-more">En savoir plus...</span>
@@ -89,7 +51,7 @@
             </div>
         </div>
     </div>
-<?php endforeach; ?>
+
 
     <!--Le footer-->
 
